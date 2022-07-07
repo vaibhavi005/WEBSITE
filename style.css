@@ -13,12 +13,12 @@ font-family: 'Roboto', sans-serif;
   padding:2rem 3rem;
   white-space: nowrap;
  }
- .btn btn--pic2{
+ .btn--pic2{
  background: #fff;
   color: black;
   border: 2px solid black;
  }
- btn btn--pic2:hover{
+ .btn--pic2:hover{
  background: #D3D3D3;
   color: #fff;
  }
