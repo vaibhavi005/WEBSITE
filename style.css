@@ -7,12 +7,22 @@ font-family: 'Roboto', sans-serif;
 
  .btn{
  border-radius: 40px;
-  font-size:1.8 rem;
+  font-size:1.8rem;
   font-weight: 600;
   margin: 1rem 0;
-  padding:2 rem 3 rem;
+  padding:2rem 3rem;
   white-space: nowrap;
  }
+ .btn btn--pic1{
+ background: #fff;
+  color: black;
+  border: 2px solid black;
+ }
+.btn btn--pic1:hover{
+ background: #D3D3D3;
+  color: #fff;
+ }
+ 
  .btn--pic2{
  background: #fff;
   color: black;
