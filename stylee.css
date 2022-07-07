@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+
+}
+nav .loogo{
+font-size:30px;
+font-weight: bold;
+letter-spacing: 1.5px;}
+
+nav ul{
+float: middle;}
+nav.loogo p{
+float: left;
+color:#fff;}
+
+nav ul li{
+display: inline-block;}
+nav ul li a{
+color:#808080;
+text-decoration: none;
+font-size: 18px;
+padding:0px 15px;}
+

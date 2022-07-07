@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    transition: all .2s linear;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 20px;
+}
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(350px, 1fr) );
+    gap: 20px;
+}
+.container .box-container .box{
+    padding: 20px;
+    display: none;
+}
+.container .box-container .box:nth-child(1),
+.container .box-container .box:nth-child(2),
+.container .box-container .box:nth-child(3){
+    display: inline;
+}
+
+
+.container .box-container .box .image{
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 250px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.container .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#view-more{
+margin-top: 20px;
+display: inline-block;
+padding: 13px 30px;
+border: 1px solid #334;
+color:#334;
+font-size: 16px;
+background-color: #fff;
+cursor: pointer;
+
+}
+#view-more:hover{
+    background-color: black;
+    border-color: #334;
+    color: #fff;
+}
