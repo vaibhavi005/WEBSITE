@@ -5,6 +5,24 @@ padding:0px;
 box-sizing: border-box;
 font-family: 'Roboto', sans-serif;
 
+ .btn{
+ border-radius: 40px;
+  font-size:1.8rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  padding:2rem 3rem;
+  white-space: nowrap;
+ }
+ .btn btn--pic2{
+ background: #fff;
+  color: black;
+  border: 2px solid black;
+ }
+ btn btn--pic2:hover{
+ background: #D3D3D3;
+  color: #fff;
+ }
+ 
 }
 .comeee{
 margin: 50px auto;
